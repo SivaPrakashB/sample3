@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CE6F2220EE21AB00B4F545 /* MyCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE6F2120EE21AB00B4F545 /* MyCitiesViewController.swift */; };
+		18D7574720EF30C00042EFD5 /* saveCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7574620EF30C00042EFD5 /* saveCityViewController.swift */; };
+		3CEB796C282151E95350F262 /* Pods_NaradPosts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988067FD55A92180179D9F75 /* Pods_NaradPosts.framework */; };
+		8B17AD8F20C51954004DA52C /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B17AD8E20C51954004DA52C /* PopUpViewController.swift */; };
+		8B20D5C920B2970C00530FE8 /* StateNewsShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20D5C820B2970C00530FE8 /* StateNewsShowViewController.swift */; };
+		8B22F1982037F0E600DFBA07 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B22F1972037F0E600DFBA07 /* Podfile */; };
+		8B22F19A20381AC000DFBA07 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22F19920381AC000DFBA07 /* CollectionViewCell1.swift */; };
+		8B251B9820B7EE3E007B3377 /* SelectCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B251B9720B7EE3E007B3377 /* SelectCountryViewController.swift */; };
+		8B26C55A203A9CBE00D4A64C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26C559203A9CBE00D4A64C /* HomeViewController.swift */; };
+		8B26C55C203A9D4B00D4A64C /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26C55B203A9D4B00D4A64C /* HomeCollectionViewCell.swift */; };
+		8B26C55E203A9E6A00D4A64C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26C55D203A9E6A00D4A64C /* HomeView.swift */; };
+		8B2F755D20AED8C100DED25B /* StatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F755C20AED8C100DED25B /* StatesViewController.swift */; };
+		8B2F755F20AEDBA000DED25B /* StatesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F755E20AEDBA000DED25B /* StatesCollectionViewCell.swift */; };
+		8B3457A020AFF0C100A04409 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B34579F20AFF0C100A04409 /* CitiesViewController.swift */; };
+		8B3457A220AFF10F00A04409 /* CitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3457A120AFF10F00A04409 /* CitiesCollectionViewCell.swift */; };
+		8B3457A420AFF22C00A04409 /* WardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3457A320AFF22C00A04409 /* WardsViewController.swift */; };
+		8B3457A620AFF26B00A04409 /* WardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3457A520AFF26B00A04409 /* WardsCollectionViewCell.swift */; };
+		8B3457A820B0187800A04409 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3457A720B0187700A04409 /* iOSDevCenters+GIF.swift */; };
+		8B3457AA20B0246A00A04409 /* abc1234.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B3457A920B0246900A04409 /* abc1234.gif */; };
+		8B42F2A12053B84C002E96C0 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B42F2A02053B84C002E96C0 /* UserNotifications.framework */; };
+		8B711C5820B2C83B0000F7B9 /* StatesNewsShowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B711C5720B2C83B0000F7B9 /* StatesNewsShowCollectionViewCell.swift */; };
+		8B97241B20C10C00008889FB /* BookAndMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97241A20C10C00008889FB /* BookAndMarkViewController.swift */; };
+		8B97241D20C1156A008889FB /* BookAndMarkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97241C20C1156A008889FB /* BookAndMarkCollectionViewCell.swift */; };
 		8BA4EA412036C3E000F5612A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4EA402036C3E000F5612A /* AppDelegate.swift */; };
 		8BA4EA432036C3E000F5612A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4EA422036C3E000F5612A /* ViewController.swift */; };
 		8BA4EA462036C3E000F5612A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4EA442036C3E000F5612A /* Main.storyboard */; };
@@ -14,6 +37,16 @@
 		8BA4EA4B2036C3E000F5612A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4EA492036C3E000F5612A /* LaunchScreen.storyboard */; };
 		8BA4EA562036C3E000F5612A /* NaradPostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4EA552036C3E000F5612A /* NaradPostsTests.swift */; };
 		8BA4EA612036C3E000F5612A /* NaradPostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4EA602036C3E000F5612A /* NaradPostsUITests.swift */; };
+		8BA4EABA203711F500F5612A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4EAB9203711F500F5612A /* Podfile */; };
+		8BD765FD204047600017726C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD765FC204047600017726C /* RegisterViewController.swift */; };
+		8BD8DBD6207F869D00ABD71C /* LTMorphingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD8DBD7207F869D00ABD71C /* LTMorphingLabel.framework */; };
+		8BE016D0203B061A00A45DD7 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE016CF203B061A00A45DD7 /* CategoryViewController.swift */; };
+		8BE016D2203B06D500A45DD7 /* HomeCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE016D1203B06D500A45DD7 /* HomeCollectionViewCell2.swift */; };
+		8BF5DB1E203D8FDD009E289B /* CheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5DB1D203D8FDD009E289B /* CheckConnection.swift */; };
+		8BF63A3C2046ABF900375029 /* phoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF63A3B2046ABF900375029 /* phoneNumber.swift */; };
+		8BF87B52203C43E500DB9598 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87B51203C43E500DB9598 /* webViewController.swift */; };
+		8BF91591204FEFE7004A55B3 /* UltravisualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF91590204FEFE7004A55B3 /* UltravisualLayout.swift */; };
+		8BFC214C20BE6BB50041510B /* CountrySelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC214B20BE6BB50041510B /* CountrySelectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CE6F2120EE21AB00B4F545 /* MyCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCitiesViewController.swift; sourceTree = "<group>"; };
+		18D7574620EF30C00042EFD5 /* saveCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveCityViewController.swift; sourceTree = "<group>"; };
+		6CC117FB6488A6458B20B4B9 /* Pods-NaradPosts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaradPosts.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaradPosts/Pods-NaradPosts.release.xcconfig"; sourceTree = "<group>"; };
+		8B17AD8E20C51954004DA52C /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8B20D5C820B2970C00530FE8 /* StateNewsShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateNewsShowViewController.swift; sourceTree = "<group>"; };
+		8B22F1972037F0E600DFBA07 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B22F19920381AC000DFBA07 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		8B251B9720B7EE3E007B3377 /* SelectCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryViewController.swift; sourceTree = "<group>"; };
+		8B26C559203A9CBE00D4A64C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B26C55B203A9D4B00D4A64C /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B26C55D203A9E6A00D4A64C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8B2F755C20AED8C100DED25B /* StatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesViewController.swift; sourceTree = "<group>"; };
+		8B2F755E20AEDBA000DED25B /* StatesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B34579F20AFF0C100A04409 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		8B3457A120AFF10F00A04409 /* CitiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B3457A320AFF22C00A04409 /* WardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardsViewController.swift; sourceTree = "<group>"; };
+		8B3457A520AFF26B00A04409 /* WardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B3457A720B0187700A04409 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		8B3457A920B0246900A04409 /* abc1234.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = abc1234.gif; sourceTree = "<group>"; };
+		8B42F29F2053AA8F002E96C0 /* NaradPosts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NaradPosts.entitlements; sourceTree = "<group>"; };
+		8B42F2A02053B84C002E96C0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		8B711C5720B2C83B0000F7B9 /* StatesNewsShowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesNewsShowCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B97241A20C10C00008889FB /* BookAndMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAndMarkViewController.swift; sourceTree = "<group>"; };
+		8B97241C20C1156A008889FB /* BookAndMarkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAndMarkCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BA4EA3D2036C3E000F5612A /* NaradPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaradPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA4EA402036C3E000F5612A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA4EA422036C3E000F5612A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +104,19 @@
 		8BA4EA5C2036C3E000F5612A /* NaradPostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaradPostsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA4EA602036C3E000F5612A /* NaradPostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaradPostsUITests.swift; sourceTree = "<group>"; };
 		8BA4EA622036C3E000F5612A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA4EAB620370E4D00F5612A /* NaradPosts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaradPosts-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BA4EAB9203711F500F5612A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8BD765FC204047600017726C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8BD8DBD7207F869D00ABD71C /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE016CF203B061A00A45DD7 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		8BE016D1203B06D500A45DD7 /* HomeCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell2.swift; sourceTree = "<group>"; };
+		8BF5DB1D203D8FDD009E289B /* CheckConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckConnection.swift; sourceTree = "<group>"; };
+		8BF63A3B2046ABF900375029 /* phoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneNumber.swift; sourceTree = "<group>"; };
+		8BF87B51203C43E500DB9598 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		8BF91590204FEFE7004A55B3 /* UltravisualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltravisualLayout.swift; sourceTree = "<group>"; };
+		8BFC214B20BE6BB50041510B /* CountrySelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		988067FD55A92180179D9F75 /* Pods_NaradPosts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaradPosts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89B1DEB665AC3A602D67226 /* Pods-NaradPosts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaradPosts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaradPosts/Pods-NaradPosts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD8DBD6207F869D00ABD71C /* LTMorphingLabel.framework in Frameworks */,
+				8B42F2A12053B84C002E96C0 /* UserNotifications.framework in Frameworks */,
+				3CEB796C282151E95350F262 /* Pods_NaradPosts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +147,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03329D4A66850F28CAEA8A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD8DBD7207F869D00ABD71C /* LTMorphingLabel.framework */,
+				8B42F2A02053B84C002E96C0 /* UserNotifications.framework */,
+				988067FD55A92180179D9F75 /* Pods_NaradPosts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DD28C865DE18616A1B9D915 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B89B1DEB665AC3A602D67226 /* Pods-NaradPosts.debug.xcconfig */,
+				6CC117FB6488A6458B20B4B9 /* Pods-NaradPosts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BA4EA342036C3DF00F5612A = {
 			isa = PBXGroup;
 			children = (
+				8B22F1972037F0E600DFBA07 /* Podfile */,
 				8BA4EA3F2036C3E000F5612A /* NaradPosts */,
 				8BA4EA542036C3E000F5612A /* NaradPostsTests */,
 				8BA4EA5F2036C3E000F5612A /* NaradPostsUITests */,
 				8BA4EA3E2036C3E000F5612A /* Products */,
+				2DD28C865DE18616A1B9D915 /* Pods */,
+				03329D4A66850F28CAEA8A96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +192,43 @@
 		8BA4EA3F2036C3E000F5612A /* NaradPosts */ = {
 			isa = PBXGroup;
 			children = (
+				8B42F29F2053AA8F002E96C0 /* NaradPosts.entitlements */,
+				8BD765FC204047600017726C /* RegisterViewController.swift */,
+				8BA4EAB9203711F500F5612A /* Podfile */,
 				8BA4EA402036C3E000F5612A /* AppDelegate.swift */,
 				8BA4EA422036C3E000F5612A /* ViewController.swift */,
+				8B3457A920B0246900A04409 /* abc1234.gif */,
 				8BA4EA442036C3E000F5612A /* Main.storyboard */,
 				8BA4EA472036C3E000F5612A /* Assets.xcassets */,
+				8BF5DB1D203D8FDD009E289B /* CheckConnection.swift */,
+				8B3457A720B0187700A04409 /* iOSDevCenters+GIF.swift */,
 				8BA4EA492036C3E000F5612A /* LaunchScreen.storyboard */,
+				8BF91590204FEFE7004A55B3 /* UltravisualLayout.swift */,
 				8BA4EA4C2036C3E000F5612A /* Info.plist */,
+				8B22F19920381AC000DFBA07 /* CollectionViewCell1.swift */,
+				8B26C55D203A9E6A00D4A64C /* HomeView.swift */,
+				8B26C559203A9CBE00D4A64C /* HomeViewController.swift */,
+				8B26C55B203A9D4B00D4A64C /* HomeCollectionViewCell.swift */,
+				8BA4EAB620370E4D00F5612A /* NaradPosts-Bridging-Header.h */,
+				8BE016CF203B061A00A45DD7 /* CategoryViewController.swift */,
+				8BE016D1203B06D500A45DD7 /* HomeCollectionViewCell2.swift */,
+				8BF87B51203C43E500DB9598 /* webViewController.swift */,
+				8BF63A3B2046ABF900375029 /* phoneNumber.swift */,
+				8B2F755C20AED8C100DED25B /* StatesViewController.swift */,
+				8B2F755E20AEDBA000DED25B /* StatesCollectionViewCell.swift */,
+				8B34579F20AFF0C100A04409 /* CitiesViewController.swift */,
+				8B3457A120AFF10F00A04409 /* CitiesCollectionViewCell.swift */,
+				8B3457A320AFF22C00A04409 /* WardsViewController.swift */,
+				8B3457A520AFF26B00A04409 /* WardsCollectionViewCell.swift */,
+				8B20D5C820B2970C00530FE8 /* StateNewsShowViewController.swift */,
+				8B711C5720B2C83B0000F7B9 /* StatesNewsShowCollectionViewCell.swift */,
+				8B251B9720B7EE3E007B3377 /* SelectCountryViewController.swift */,
+				8BFC214B20BE6BB50041510B /* CountrySelectCollectionViewCell.swift */,
+				8B97241A20C10C00008889FB /* BookAndMarkViewController.swift */,
+				8B97241C20C1156A008889FB /* BookAndMarkCollectionViewCell.swift */,
+				8B17AD8E20C51954004DA52C /* PopUpViewController.swift */,
+				18CE6F2120EE21AB00B4F545 /* MyCitiesViewController.swift */,
+				18D7574620EF30C00042EFD5 /* saveCityViewController.swift */,
 			);
 			path = NaradPosts;
 			sourceTree = "<group>";
@@ -132,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BA4EA652036C3E000F5612A /* Build configuration list for PBXNativeTarget "NaradPosts" */;
 			buildPhases = (
+				0746A2EA127583DAF76C3404 /* [CP] Check Pods Manifest.lock */,
 				8BA4EA392036C3E000F5612A /* Sources */,
 				8BA4EA3A2036C3E000F5612A /* Frameworks */,
 				8BA4EA3B2036C3E000F5612A /* Resources */,
+				90403F237372D7DBB282760F /* [CP] Embed Pods Frameworks */,
+				CA4130790B32D9EF7F946EBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +322,13 @@
 				TargetAttributes = {
 					8BA4EA3C2036C3E000F5612A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					8BA4EA502036C3E000F5612A = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,8 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B22F1982037F0E600DFBA07 /* Podfile in Resources */,
 				8BA4EA4B2036C3E000F5612A /* LaunchScreen.storyboard in Resources */,
 				8BA4EA482036C3E000F5612A /* Assets.xcassets in Resources */,
+				8B3457AA20B0246A00A04409 /* abc1234.gif in Resources */,
+				8BA4EABA203711F500F5612A /* Podfile in Resources */,
 				8BA4EA462036C3E000F5612A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +392,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0746A2EA127583DAF76C3404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaradPosts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90403F237372D7DBB282760F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaradPosts/Pods-NaradPosts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BIZPopupView/BIZPopupView.framework",
+				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BIZPopupView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaradPosts/Pods-NaradPosts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4130790B32D9EF7F946EBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaradPosts/Pods-NaradPosts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BA4EA392036C3E000F5612A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2F755D20AED8C100DED25B /* StatesViewController.swift in Sources */,
+				8B20D5C920B2970C00530FE8 /* StateNewsShowViewController.swift in Sources */,
+				8B3457A820B0187800A04409 /* iOSDevCenters+GIF.swift in Sources */,
+				8B26C55C203A9D4B00D4A64C /* HomeCollectionViewCell.swift in Sources */,
 				8BA4EA432036C3E000F5612A /* ViewController.swift in Sources */,
+				8B2F755F20AEDBA000DED25B /* StatesCollectionViewCell.swift in Sources */,
+				8BF91591204FEFE7004A55B3 /* UltravisualLayout.swift in Sources */,
+				8B3457A020AFF0C100A04409 /* CitiesViewController.swift in Sources */,
+				8BE016D2203B06D500A45DD7 /* HomeCollectionViewCell2.swift in Sources */,
+				8BD765FD204047600017726C /* RegisterViewController.swift in Sources */,
+				8B711C5820B2C83B0000F7B9 /* StatesNewsShowCollectionViewCell.swift in Sources */,
+				8B251B9820B7EE3E007B3377 /* SelectCountryViewController.swift in Sources */,
+				8BF63A3C2046ABF900375029 /* phoneNumber.swift in Sources */,
+				8BE016D0203B061A00A45DD7 /* CategoryViewController.swift in Sources */,
+				8B3457A420AFF22C00A04409 /* WardsViewController.swift in Sources */,
+				8BF5DB1E203D8FDD009E289B /* CheckConnection.swift in Sources */,
+				8B17AD8F20C51954004DA52C /* PopUpViewController.swift in Sources */,
+				18CE6F2220EE21AB00B4F545 /* MyCitiesViewController.swift in Sources */,
 				8BA4EA412036C3E000F5612A /* AppDelegate.swift in Sources */,
+				8BF87B52203C43E500DB9598 /* webViewController.swift in Sources */,
+				8B97241D20C1156A008889FB /* BookAndMarkCollectionViewCell.swift in Sources */,
+				8B3457A620AFF26B00A04409 /* WardsCollectionViewCell.swift in Sources */,
+				8BFC214C20BE6BB50041510B /* CountrySelectCollectionViewCell.swift in Sources */,
+				8B26C55E203A9E6A00D4A64C /* HomeView.swift in Sources */,
+				8B97241B20C10C00008889FB /* BookAndMarkViewController.swift in Sources */,
+				8B22F19A20381AC000DFBA07 /* CollectionViewCell1.swift in Sources */,
+				8B3457A220AFF10F00A04409 /* CitiesCollectionViewCell.swift in Sources */,
+				18D7574720EF30C00042EFD5 /* saveCityViewController.swift in Sources */,
+				8B26C55A203A9CBE00D4A64C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +651,24 @@
 		};
 		8BA4EA662036C3E000F5612A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89B1DEB665AC3A602D67226 /* Pods-NaradPosts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NaradPosts/NaradPosts.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ios.senov1@gmail.com (77STJJM4RY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = NaradPosts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.NaradPosts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbbazar.NaradaPost1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaradPosts/NaradPosts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +676,23 @@
 		};
 		8BA4EA672036C3E000F5612A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC117FB6488A6458B20B4B9 /* Pods-NaradPosts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NaradPosts/NaradPosts.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ios.senov1@gmail.com (77STJJM4RY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = NaradPosts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.NaradPosts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbbazar.NaradaPost1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaradPosts/NaradPosts-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
