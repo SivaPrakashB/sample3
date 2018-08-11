@@ -1,0 +1,6 @@
+framework module Pods_NaradPosts {
+  umbrella header "Pods-NaradPosts-umbrella.h"
+
+  export *
+  module * { export * }
+}
