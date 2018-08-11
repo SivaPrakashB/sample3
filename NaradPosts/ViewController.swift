@@ -26,7 +26,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
             return
         }
         
-        ////whats appp Image Code
+        ////whats appp Image Code/////
        
         /////////////////////////////////
   
@@ -69,11 +69,12 @@ var storesList = [NSDictionary]()
         }
      
         gettingCategoryList()
+        ///collectionView1 Reload The data
        
     self.collectionView1.reloadData()
         
         
-        
+       
     }
 
     override func didReceiveMemoryWarning() {
